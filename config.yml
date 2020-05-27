@@ -1,0 +1,15 @@
+DB:
+    Host: "somewhere_about_your_db_location"
+    Port: 3306
+    Database: "mysql"
+    Username: "root"
+    Password: "123qwe123" 
+Server:
+    RunMode: "debug"
+    Port: 80
+    Timeout: 60
+App:
+    Version: 1.0
+    PageSize: 20
+    JwtSecret: "secret"
+
