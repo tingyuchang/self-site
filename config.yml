@@ -1,9 +1,11 @@
 DB:
     Host: "somewhere_about_your_db_location"
     Port: 3306
-    Database: "mysql"
+    Database: "mysite"
     Username: "root"
     Password: "123qwe123" 
+    Driver: "mysql"
+    
 Server:
     RunMode: "debug"
     Port: 80

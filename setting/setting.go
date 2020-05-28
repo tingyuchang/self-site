@@ -18,6 +18,7 @@ type DatabaseConfiguration struct {
 	Database string
 	Username string
 	Password string
+	Driver string
 }
 
 type ServerConfiguration struct {
