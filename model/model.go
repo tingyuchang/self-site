@@ -4,6 +4,7 @@ import (
 	"database/sql"
 	"fmt"
 	"self-site/setting"
+	_ "github.com/go-sql-driver/mysql"
 )
 
 var db *sql.DB
@@ -24,7 +25,7 @@ func CloseDB() {
 }
 
 func loadDBConfig() (string, string) {
-	connection := setting.Config.DB.Host
+	connection := setting.Config.DB.Driver
 	host := setting.Config.DB.Host
 	port := setting.Config.DB.Port
 	database := setting.Config.DB.Database
